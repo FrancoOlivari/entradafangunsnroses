@@ -1,0 +1,510 @@
+/* -- RESETS -- */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+body{
+	background-color: white;
+	margin: 0;
+}
+h4{
+	font-family: 'Open-Sans', Sans-Serif;
+	font-weight: 400;
+}
+h2, h1{
+	font-size: 40px;
+	font-family: 'Open-Sans', Sans-Serif;
+	font-weight: 300;
+}
+p{
+	font-size: 18px;
+	font-family: 'Open-Sans', Sans-Serif;
+	font-weight: 300;
+}
+.tarjetas{
+	display: inline-block;
+	float: left;
+	margin-top: -4px;
+	width: 60px;
+}
+.camiones{
+	display: inline-block;
+	float: left;
+	margin-top: -4px;
+	width: 60px;
+}
+.cleaner{
+	clear: both;
+}
+/* --------------- */
+/* ESTILOS CONTENEDOR 1 */
+#contenedor1{
+	margin-top: 0;
+	padding: 3.5% 10% 3.5%;
+	/* AUMENTAR EL SIGUIENTE PADDING A MEDIDA QUE SE NECESITE AUMENTAR EL TAMAÑO DEL CONTENEDOR */
+	padding-bottom: 21%;
+	background: url("../images/guns-back.jpg") center top no-repeat;
+	background-size: cover;
+	background-position: 50% 75%;
+}
+#contenedor1 h1{
+	color: white;
+	text-align: center;
+	margin-top: 6%;
+}
+#tablaventas{
+	margin-top: 5%;
+}
+/* ESTILOS DE LA TABLA */
+.semi-title{
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0.25em;
+    color: #e5332a;
+    font-weight: 600;
+}
+/* ------------------- */
+/* FIN ESTILOS CONTENEDOR 1 */
+/* ESTILOS CONTENEDOR COMPARTIR ESTA NOTA (DE ARRIBA) */
+#contenedorshare{
+	float: right;
+	width: 34%;
+	text-align: center;
+	color: rgb(150, 150, 150);
+	padding-right: 17.5%;
+	margin-top: 1.5%;
+}
+#comparte1{
+	float: left;
+	display: inline;
+	margin-top: 2.5%;
+	font-size: 15px;
+}
+/* -------------------------------------------------- */
+/* ESTILOS CONTENEDOR 2*/
+#framespotify{
+	margin-left: 15.5%;
+}
+#contenedor2{
+	display: block;
+	margin: 0;
+	padding: 0 17.5%;
+}
+#contenedor2 h3{
+	font-size: 20px;
+	color: rgb(233, 95, 88);
+	font-weight: 600;
+}
+#contenedor2 p{
+	font-size: 15px;
+	color: rgb(150, 150, 150);
+}
+#imagen1{
+	text-align: center;
+	padding: 2% 0 3%;
+	width: 100%;
+}
+/* FIN ESTILOS CONTENEDOR 2 */
+/* DISPOCISION DE COLUMNAS */
+.columnas1{
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 30px; /* Firefox */
+    column-gap: 30px;
+    padding-bottom: 5%;
+}
+/* ---------------------- */
+/* ESTILOS CONTENEDOR 3 */
+#contenedor3{
+	display: block;
+	margin: 0;
+	padding: 1.5% 0 2%;
+	background-color: rgb(16, 101, 140);
+	color: white;
+	font-family: 'Open-Sans', Sans-Serif;
+	text-align: center;
+}
+#contenedor3 h2{
+	padding-bottom: 1.5%;
+}
+.btn-no-border{
+	border: none;
+}
+.btn-success {
+    box-shadow: 0 -3px 0 #64a70b inset;
+    background: #72bf0d;
+}
+.btn-success:hover {
+    box-shadow: 0 -4px 0 #5e9e0b inset;
+    background: #78c90e;
+    border: none;
+}
+.btn-success:focus {
+    background: #64a70b !important;
+    box-shadow: 0 -5px 0 #5e9e0b inset;
+    border: none;
+}
+.btn {
+    display: inline;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+a, a:active, a:focus {
+    outline: none;
+}
+#tamaño{
+	width: 18%;
+	height: 46px;
+	font-size: 18px;
+	font-family: "Open Sans", sans-serif;
+	line-height: 1.52857;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+#botoncomprar{
+	margin: auto;
+	padding-bottom: 2.5%;
+}
+.primerbot{
+	margin-right: 2%;
+}
+/* FIN ESTILOS CONTENEDOR 3 */
+/* ESTILOS CONTENEDOR 4 */
+#contenedor4 p{
+	padding: 3% 17.5%;
+	text-align: center;
+	color: rgb(150, 150, 150);
+	font-style: italic;
+	font-family: 'Open-Sans', Sans-Serif;
+}
+#slash{
+	width: 35%;
+	margin: auto;
+}
+/* FIN ESTILOS CONTENEDOR 4 */
+/* ESTILOS CONTENEDOR 5 */
+#contenedor5{
+	display: block;
+	margin: 0;
+	padding: 0 17.5%;
+}
+#contenedor5 h3{
+	font-size: 20px;
+	color: rgb(47, 163, 217);
+	font-weight: 600;
+}
+#contenedor5 p{
+	font-size: 15px;
+	color: rgb(150, 150, 150);
+	margin: 0;
+	padding: 1.5% 0;
+}
+#imagen2{
+	text-align: center;
+	padding: 1.5% 0;
+	width: 100%;
+}
+/* FIN ESTILOS CONTENEDOR 5 */
+/* ESTILOS CONTENEDOR 6 */
+#contenedor6{
+	margin-top: 20%;
+	background: url("../images/guns-back2.jpg") center top no-repeat;
+	background-position: 10% 50%;
+	background-size: cover;
+}
+#contenedor6 h2{
+	font-size: 50px;
+	padding-top: 3%;
+	padding-bottom: 2%;
+	color: white;
+	text-align: center;
+	margin-top: -17.5%;
+}
+#contenedor6 #contenedor4{
+	padding: 0;
+	text-align: center;
+	color: rgb(150, 150, 150);
+	font-style: italic;
+	font-family: 'Open-Sans', Sans-Serif;
+}
+#contenedor6 #contenedor4 p{
+	color: white;
+}
+#video{
+	padding: 0% 17.5% 3%;
+}
+#video1{
+	width: 100%;
+	height: 480px;
+}
+/* FIN ESTILOS CONTENEDOR 6 */
+/* ESTILOS CONTENEDOR 7 */
+/* --- ESTE CONTENEDOR ABARCA LOS ESTILOS DEL (Y) CONTENEDOR 6 --- */
+#contenedor7{
+	display: block;
+	margin: 0;
+	padding: 0 17.5%;
+}
+#contenedor7 p{
+	font-size: 15px;
+	color: white;
+}
+/* FIN ESTILOS CONTENEDOR 7 */
+/* ESTILOS CONTENEDOR 8 */
+#contenedor8{
+	margin: auto;
+	padding: 0 17.5%;
+}
+#contenedor8 h3{
+	font-size: 40px;
+	color: rgb(233, 95, 88);
+	text-align: center;
+	padding: 1.5% 0 2%;
+}
+#contenedor8 p{
+	font-size: 15px;
+	color: rgb(150, 150, 150);
+}
+#logoguns{
+	width: 40%;
+	margin: auto;
+}
+/* FIN ESTILOS CONTENEDOR 8 */
+/* ESTILOS CONTENEDOR 9 */
+#contenedor9{
+	display: block;
+	margin: 0;
+}
+#contenedor9 h3{
+	font-size: 40px;
+	color: rgb(47, 163, 217);
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 2.5%;
+}
+#contenedor9 #tablaventas{
+	width: 80%;
+	margin: auto;
+}
+#mapaseparacion{
+	padding: 1%;
+}
+#contenedor9 iframe{
+	margin-left: 10%;
+}
+#mapasize{
+	width: 80%;
+	height: 450px;
+	margin-bottom: 2%;
+}
+/* FIN ESTILOS CONTENEDOR 9 */
+/* EXTRAS // FINAL DE PÁGINA */
+#gracias{
+	text-align: center;
+}
+#graciassvg{
+	display: inline;
+	width: 40%;
+	padding-bottom: 3%;
+}
+#pngcards{
+    width: 100%;
+    height: 105px;
+    background: url('http://www.entradafan.com.ar/VistasNew/images/png/sprite_png.png') -72px -95px;
+    background-repeat: no-repeat;
+    border-top: 1px dashed #6B6F79;
+    border-bottom: 1px dashed #6B6F79;
+}
+.invisible{
+	display: none;
+	width: 0;
+	height: 0;
+	padding: 0;
+	margin: 0;
+}
+ul.share-buttons{
+	list-style: none;
+	padding: 0;
+}
+ul.share-buttons li{
+	display: inline;
+}
+#primerboton{
+	margin-right: 1.5%;
+}
+#contenedorshare2{
+	margin: auto;
+	text-align: center;
+	width: 25%;
+}
+#comparte2{
+	line-height: 40px;
+	font-size: 15px;
+	color: rgb(150, 150, 150);
+}
+@media (max-width: 430px){
+/* ESTILOS CONTENEDOR 1 */
+	#contenedor1{
+		padding: 3.5% 10% 3.5%;
+		/* AUMENTAR EL SIGUIENTE PADDING A MEDIDA QUE SE NECESITE AUMENTAR EL TAMAÑO DEL CONTENEDOR */
+		padding-bottom: 105%;
+	}
+	#contenedor1 h1{
+		color: white;
+		text-align: center;
+		margin-top: 60%;
+	}
+	#tablaventas{
+		margin-top: 5%;
+		width: 80%;
+	}
+/* ESTILOS CONTENEDOR COMPARTIR ESTA NOTA (DE ARRIBA) */
+	#contenedorshare{
+		float: right;
+		width: 58%;
+		margin-top: 4%;
+		padding-right: 0;
+	}
+	#comparte1{
+		float: left;
+		display: inline;
+		margin-top: 2.5%;
+		font-size: 15px;
+	}
+/* ESTILOS CONTENEDOR 2*/
+	#framespotify{
+		margin-left: 0;
+	}
+	#tamañospotify{
+		width: 100%;
+	}
+	#contenedor2{
+		display: block;
+		margin: 0;
+		padding: 3% 5%;
+	}
+	#contenedor2 h3{
+		font-size: 20px;
+		color: rgb(233, 95, 88);
+		font-weight: 600;
+	}
+	#contenedor2 p{
+		font-size: 15px;
+		color: rgb(150, 150, 150);
+	}
+	#imagen1{
+		text-align: center;
+		padding: 2% 0 3%;
+		width: 100%;
+	}
+/* DISPOCISION DE LAS COLUMNAS */
+	.columnas1{
+		-webkit-column-count: 1; /* Chrome, Safari, Opera */
+	    -moz-column-count: 1; /* Firefox */
+	    column-count: 1;
+	    -webkit-column-gap: 0; /* Chrome, Safari, Opera */
+	    -moz-column-gap: 0; /* Firefox */
+    	column-gap: 0;
+    	padding-bottom: 2%;
+	}
+/* ESTILOS CONTENEDOR 3 */
+	#contenedor3 h2{
+		padding-bottom: 1.5%;
+	}
+	#tamaño{
+		line-height: 3;
+	}
+	.primerbot{
+		margin-right: 0;
+	}
+/* ESTILOS CONTENEDOR 4 */
+	#contenedor4 p{
+		padding: 3% 5%;
+	}
+	#slash{
+		width: 80%;
+	}
+/* ESTILOS CONTENEDOR 5 */
+	#contenedor5{
+		padding: 0 5%;
+	}
+/* ESTILOS CONTENEDOR 6 */
+	#contenedor6 #contenedor4{
+		padding: 0;
+		text-align: center;
+		color: rgb(150, 150, 150);
+		font-style: italic;
+		font-family: 'Open-Sans', Sans-Serif;
+	}
+	#contenedor6 #contenedor4 p{
+		color: white;
+	}
+	#video{
+		padding: 0% 0% 3%;
+	}
+	#video1{
+		width: 100%;
+		height: 340px;
+	}
+/* ESTILOS CONTENEDOR 7 */
+/* --- ESTE CONTENEDOR ABARCA LOS ESTILOS DEL (Y) CONTENEDOR 6 --- */
+	#contenedor7{
+		padding: 0 5%;
+	}
+	#contenedor7 p{
+		font-size: 15px;
+		color: white;
+	}
+/* ESTILOS CONTENEDOR 8 */
+	#contenedor8{
+		padding: 0 5%;
+	}
+	#logoguns{
+		width: 80%;
+	}
+/* ESTILOS CONTENEDOR 9 */
+	#contenedor9{
+		display: block;
+		margin: 0;
+	}
+	#contenedor9 h3{
+		font-size: 40px;
+		color: rgb(47, 163, 217);
+		font-weight: 400;
+		text-align: center;
+		margin-bottom: 10%;
+	}
+	#contenedor9 #tablaventas{
+		width: 100%;
+		margin: auto;
+	}
+	#mapasize{
+		width: 100%;
+		height: 300px;
+	}
+	#contenedor9 iframe{
+		margin-left: 0;
+	}
+	#contenedorshare2{
+		margin: auto;
+		text-align: center;
+		width: 80%;
+	}
+	#graciassvg{
+		display: inline;
+		width: 100%;
+		padding-bottom: 3%;
+	}
+};
