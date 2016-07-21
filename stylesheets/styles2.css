@@ -5,17 +5,17 @@ body{
 	margin: 0;
 }
 h4{
-	font-family: 'Open-Sans', Sans-Serif;
+	font-family: 'Open Sans', Sans-Serif;
 	font-weight: 400;
 }
 h2, h1{
 	font-size: 40px;
-	font-family: 'Open-Sans', Sans-Serif;
+	font-family: 'Open Sans', Sans-Serif;
 	font-weight: 300;
 }
 p{
 	font-size: 18px;
-	font-family: 'Open-Sans', Sans-Serif;
+	font-family: 'Open Sans', Sans-Serif;
 	font-weight: 300;
 }
 .tarjetas{
@@ -35,19 +35,23 @@ p{
 }
 /* --------------- */
 /* ESTILOS CONTENEDOR 1 */
-#contenedor1{
+section{
 	margin-top: 0;
 	padding: 3.5% 10% 3.5%;
 	/* AUMENTAR EL SIGUIENTE PADDING A MEDIDA QUE SE NECESITE AUMENTAR EL TAMAÑO DEL CONTENEDOR */
-	padding-bottom: 21%;
-	background: url("../images/guns-back.jpg") center top no-repeat;
+	background: url(../images/guns-back.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
 	background-position: 50% 75%;
+	height: 100%;
+	overflow: auto;
 }
 #contenedor1 h1{
 	color: white;
 	text-align: center;
-	margin-top: 6%;
+	margin-top: 1%;
 }
 #tablaventas{
 	margin-top: 5%;
@@ -64,18 +68,19 @@ p{
 /* FIN ESTILOS CONTENEDOR 1 */
 /* ESTILOS CONTENEDOR COMPARTIR ESTA NOTA (DE ARRIBA) */
 #contenedorshare{
+	padding: 2% 0;
 	float: right;
-	width: 34%;
+	width: 30%;
 	text-align: center;
-	color: rgb(150, 150, 150);
-	padding-right: 17.5%;
-	margin-top: 1.5%;
+	margin-top: 1%;
+	font-size: 20px;
 }
 #comparte1{
 	float: left;
 	display: inline;
+	margin-right: 3%;
 	margin-top: 2.5%;
-	font-size: 15px;
+	font-weight: 300;
 }
 /* -------------------------------------------------- */
 /* ESTILOS CONTENEDOR 2*/
@@ -120,7 +125,7 @@ p{
 	padding: 1.5% 0 2%;
 	background-color: rgb(16, 101, 140);
 	color: white;
-	font-family: 'Open-Sans', Sans-Serif;
+	font-family: 'Open Sans', Sans-Serif;
 	text-align: center;
 }
 #contenedor3 h2{
@@ -358,8 +363,6 @@ ul.share-buttons li{
 /* ESTILOS CONTENEDOR 1 */
 	#contenedor1{
 		padding: 3.5% 10% 3.5%;
-		/* AUMENTAR EL SIGUIENTE PADDING A MEDIDA QUE SE NECESITE AUMENTAR EL TAMAÑO DEL CONTENEDOR */
-		padding-bottom: 105%;
 	}
 	#contenedor1 h1{
 		color: white;
@@ -373,8 +376,7 @@ ul.share-buttons li{
 /* ESTILOS CONTENEDOR COMPARTIR ESTA NOTA (DE ARRIBA) */
 	#contenedorshare{
 		float: right;
-		width: 58%;
-		margin-top: 4%;
+		width: 70%;
 		padding-right: 0;
 	}
 	#comparte1{
@@ -446,7 +448,7 @@ ul.share-buttons li{
 		text-align: center;
 		color: rgb(150, 150, 150);
 		font-style: italic;
-		font-family: 'Open-Sans', Sans-Serif;
+		font-family: 'Open Sans', Sans-Serif;
 	}
 	#contenedor6 #contenedor4 p{
 		color: white;
